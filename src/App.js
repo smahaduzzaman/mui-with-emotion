@@ -1,4 +1,4 @@
-import { createTheme, CssBaseline, Paper, Switch, ThemeProvider } from '@mui/material';
+import { createTheme, CssBaseline, Paper, Switch, ThemeProvider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { useState } from 'react';
 import HeroCard from './components/SecondSteps/HeroCard';
@@ -96,6 +96,20 @@ function App() {
         ></Paper> */}
 
       </Paper>
+      <Box>
+        <Typography
+          sx={{
+            color: 'primary.main',
+            fontSize: '2rem',
+            fontWeight: 'bold',
+            textAlign: 'center',
+          }}
+          variant="p"
+          component={"p"}
+          color="primary.main">
+          Designed By S M Ahaduzzaman
+        </Typography>
+      </Box>
     </ThemeProvider>
 
   )
