@@ -8,6 +8,8 @@ import MuiIconButton from './components/MuiIconButton';
 import BasicRating from './components/BasicRating';
 import MuiTextField from './components/MuiTextField';
 import MuiAlert from './components/MuiAlert';
+import SxSystemProps from './components/SxSystemProps';
+import ResponsiveValues from './components/ResponsiveValues';
 
 function App() {
 
@@ -31,6 +33,8 @@ function App() {
         <MuiIconButton></MuiIconButton>
         <BasicRating></BasicRating>
         <MuiTextField></MuiTextField>
+        <SxSystemProps></SxSystemProps>
+        <ResponsiveValues></ResponsiveValues>
       </div>
     </div>
   );
