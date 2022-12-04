@@ -1,4 +1,8 @@
 Basic Learning - Component Design
+- Theming
+- Card Design
+- Box
+- Paper
 - Button
 - Typography
 - Textfield
